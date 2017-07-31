@@ -20,3 +20,7 @@ $(document).ready(function(){
     $('#solution').prepend('<p>Thank you, '+email+' has been added to our mailing list</p>');
   });
 });
+
+$(document).ready(function(){
+  $('#time').text(moment());
+});
